@@ -1,0 +1,281 @@
+{
+    "version": 5.1,
+    "model": {
+        "type": "linear",
+        "weight": 2.0003166001417676,
+        "bias": 0.9981177563259679
+    },
+    "learning": {
+        "epochs": 400,
+        "error": 0.00520990105071073
+    },
+    "principles": [
+        {
+            "type": "linear_relationship",
+            "description": "Output can be predicted using an input multiplied by a learned weight, plus a learned bias.",
+            "formula": "output = input × weight + bias",
+            "weight": 2.0003166001417676,
+            "bias": 0.9981177563259679,
+            "times_discovered": 3,
+            "instances": [
+                {
+                    "model": {
+                        "type": "linear",
+                        "weight": 3.0,
+                        "bias": 1.0
+                    },
+                    "average_error": 0.0
+                }
+            ]
+        }
+    ],
+    "concepts": [
+        {
+            "name": "linear_relationship",
+            "understanding": "A relationship where changing the input produces a predictable change in the output.",
+            "description": "A concept learned from experience.",
+            "category": "general",
+            "times_observed": 1,
+            "experience_ids": [],
+            "confidence": 1.0
+        },
+        {
+            "name": "multiplication",
+            "description": "Multiplication combines quantities through repeated scaling.",
+            "category": "arithmetic",
+            "times_observed": 3,
+            "experience_ids": [
+                3,
+                4,
+                5
+            ],
+            "confidence": 1.0
+        }
+    ],
+    "experiments": [
+        {
+            "type": "linear_learning_experiment",
+            "training_examples": 7,
+            "observations": [
+                {
+                    "input": 1,
+                    "expected": 3,
+                    "prediction": 2.9984343564677354,
+                    "error": 0.0015656435322646267
+                },
+                {
+                    "input": 2,
+                    "expected": 5,
+                    "prediction": 4.998750956609503,
+                    "error": 0.0012490433904970288
+                },
+                {
+                    "input": 3,
+                    "expected": 7,
+                    "prediction": 6.999067556751271,
+                    "error": 0.0009324432487289869
+                },
+                {
+                    "input": 4,
+                    "expected": 9,
+                    "prediction": 8.999384156893038,
+                    "error": 0.0006158431069618331
+                },
+                {
+                    "input": 5,
+                    "expected": 11,
+                    "prediction": 10.999700757034805,
+                    "error": 0.0002992429651946793
+                },
+                {
+                    "input": 6,
+                    "expected": 13,
+                    "prediction": 13.000017357176574,
+                    "error": 1.7357176574250843e-05
+                },
+                {
+                    "input": 7,
+                    "expected": 15,
+                    "prediction": 15.000333957318341,
+                    "error": 0.00033395731834140463
+                }
+            ],
+            "result": "A linear relationship was discovered and stored."
+        },
+        {
+            "type": "pattern_discovery",
+            "training_examples": 7,
+            "discovered_pattern": "linear",
+            "average_error": 0.0,
+            "observations": [
+                {
+                    "input": 1,
+                    "expected": 3,
+                    "prediction": 3.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 2,
+                    "expected": 5,
+                    "prediction": 5.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 3,
+                    "expected": 7,
+                    "prediction": 7.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 4,
+                    "expected": 9,
+                    "prediction": 9.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 5,
+                    "expected": 11,
+                    "prediction": 11.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 6,
+                    "expected": 13,
+                    "prediction": 13.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 7,
+                    "expected": 15,
+                    "prediction": 15.0,
+                    "error": 0.0
+                }
+            ]
+        },
+        {
+            "type": "pattern_discovery",
+            "training_examples": 4,
+            "discovered_pattern": "linear",
+            "average_error": 0.0,
+            "observations": [
+                {
+                    "input": 1,
+                    "expected": 4,
+                    "prediction": 4.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 2,
+                    "expected": 7,
+                    "prediction": 7.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 3,
+                    "expected": 10,
+                    "prediction": 10.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 4,
+                    "expected": 13,
+                    "prediction": 13.0,
+                    "error": 0.0
+                }
+            ]
+        },
+        {
+            "type": "pattern_discovery",
+            "training_examples": 4,
+            "discovered_pattern": "linear",
+            "model": {
+                "type": "linear",
+                "weight": 3.0,
+                "bias": 1.0
+            },
+            "average_error": 0.0,
+            "observations": [
+                {
+                    "input": 1,
+                    "expected": 4,
+                    "prediction": 4.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 2,
+                    "expected": 7,
+                    "prediction": 7.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 3,
+                    "expected": 10,
+                    "prediction": 10.0,
+                    "error": 0.0
+                },
+                {
+                    "input": 4,
+                    "expected": 13,
+                    "prediction": 13.0,
+                    "error": 0.0
+                }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "timestamp": "2026-09-21T01:01:21",
+            "demand": "12 * 4",
+            "context": {},
+            "strategy": "arithmetic",
+            "success": true,
+            "notes": "Arithmetic strategy successfully solved a multiplication demand where 12 * 4 (12 times 4 or twelve times four) = 48",
+            "id": 1
+        },
+        {
+            "timestamp": "2026-09-21T01:03:45",
+            "demand": "25 * 4",
+            "context": {},
+            "strategy": "arithmetic",
+            "success": true,
+            "notes": "successfully solved a multiplication demand where 25 * 4 (25 times 4 or twenty five times four) = 100",
+            "id": 2
+        },
+        {
+            "id": 3,
+            "timestamp": "2026-09-21T01:09:23",
+            "demand": "12 * 4",
+            "context": {},
+            "strategy": "arithmetic",
+            "success": true,
+            "answer": 48
+        },
+        {
+            "id": 4,
+            "timestamp": "2026-09-21T01:10:30",
+            "demand": "7 * 8",
+            "context": {},
+            "strategy": "arithmetic",
+            "success": true,
+            "answer": 56
+        },
+        {
+            "id": 5,
+            "timestamp": "2026-09-21T01:17:31",
+            "demand": "9 * 7",
+            "context": {},
+            "strategy": "arithmetic",
+            "success": true,
+            "answer": 63
+        }
+    ],
+    "strategies": [
+        {
+            "type": "arithmetic",
+            "attempts": 5,
+            "successes": 5,
+            "failures": 0,
+            "success_rate": 1.0
+        }
+    ]
+}
